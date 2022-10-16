@@ -1,0 +1,50 @@
+.content {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.settings {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.banner {
+  width: 55%;
+  align-self: center;
+  padding: 8px;
+  border:8px solid #303f9f;
+  background-color:#a2e9e4;
+  border-radius: 10px 10px;
+  box-shadow: 8px 10px 9px #3a9892;
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner {
+    width: 85%;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .settings {
+    width: 100%;
+  }
+}
+
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  justify-content: space-evenly;
+}

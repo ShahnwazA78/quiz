@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: #303f9f;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.app {
+  min-height: 98.5vh;
+  background: url('./assets/856.jpg');
+  border: 8px solid rgb(65, 215, 205);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mainImg {
+  padding: 10px 0 5px 0;
+}
